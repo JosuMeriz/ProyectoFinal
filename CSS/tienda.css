@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.main {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+}
+
+.products {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.cart {
+    flex: 1;
+    background-color: rgba(137, 119, 107, 40%);
+    border: 1px solid #8a7d77;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #212121;
+    border: 1px solid #363636;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+
+#checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #423429;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #91804f;
+}
+
+#coleccion {
+    background: linear-gradient(0deg, #292417 10%, #ffffff 50%);
+    background-clip: text;         
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body{
+    background: linear-gradient(45deg, #000000 50%, #f5eac2 100%);
+}
+
+.tienda{
+    color: #c7b4a2;
+    font-family: "Alexandria", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+}
